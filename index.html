@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Hi there! What's up?</h1>
+            <p>A little about me and my social medias.</p>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About me</h2>
+        <p>Olá, meu nome é Lucas e tenho 17 anos. Gosto de ler, assistir e analisar filmes, ouvir músicas e estudar sobre diversos assuntos.</p>
+    </section>
+    
+    <hr class="divider">
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <div class="social-media-icons">
+                <a href="https://github.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                </a>
+            
+            </div>
+        </div>
+        
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lucas H. Menegon. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
